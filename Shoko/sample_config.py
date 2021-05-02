@@ -16,11 +16,11 @@ class Config(object):
     # REQUIRED
     BOT_TOKEN = "1759657835:AAGWVkTUsdJnKLNicVgCh3WF4r1eNYIcumE"
     OWNER_ID = (
-        "1181299135"  # If you dont know, run the bot and do /id in your private chat with it
+        "1490922001"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = "fck_feels"
-    TELETHON_HASH =  ' ' 
-    TELETHON_ID = 123456
+    OWNER_USERNAME = "Toxiczayn"
+    TELETHON_HASH =  'acc81ae6fe9e6d7045f436f79adbc7b8' 
+    TELETHON_ID = 1347630
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
@@ -35,13 +35,10 @@ class Config(object):
 
     # OPTIONAL
     SUDO_USERS = (
-        [1313665327, 1258544708, 1111332827, 1349105330, 680240877, 696086626, 604968079, 840545787, 1353333753, 239508098, 712008424]
     )  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = (
-        [1222035687, 1100420431]
     )  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = (
-        [1372739207]
     )  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     WHITELIST_CHATS = []
     BLACKLIST_CHATS = []
