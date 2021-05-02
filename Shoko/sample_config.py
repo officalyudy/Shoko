@@ -14,17 +14,17 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    BOT_TOKEN = "bot_token"
+    BOT_TOKEN = "1759657835:AAGWVkTUsdJnKLNicVgCh3WF4r1eNYIcumE"
     OWNER_ID = (
-        "1258544708"  # If you dont know, run the bot and do /id in your private chat with it
+        "1181299135"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
+    OWNER_USERNAME = "fck_feels"
     TELETHON_HASH =  ' ' 
     TELETHON_ID = 123456
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    REDIS_URI = " "
+    REDIS_URI = "redis-17978.c261.us-east-1-4.ec2.cloud.redislabs.com:17978"
     MESSAGE_DUMP = -100  # needed to make sure 'save from' messages persist
     GBAN_DUMP = -100
     ERROR_DUMP = -100
